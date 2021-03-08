@@ -209,7 +209,7 @@ font-family: fangsong;
 				    dataType:'json',				
 				    success: function (response){
 				      
- 	 	            	if(index <= max){ 
+ 	 	            	if(index <= Infinity){ 
     		           variantId = response.productVariantId;
  	 	            		 variantPrice = response.price;
  	 	            		 rnd = response.price;
