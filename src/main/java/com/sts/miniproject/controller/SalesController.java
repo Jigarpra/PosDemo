@@ -54,6 +54,7 @@ public class SalesController {
 				System.out.print(x);
 			});
 		}
+		//////
 		salesRepo.save(sales);
 		
 		  RedirectView redirectview = new RedirectView();
